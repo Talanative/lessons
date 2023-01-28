@@ -1,0 +1,47 @@
+@import url(reset.css);
+
+h2{
+   color: brown;
+   font-size: 20px;
+}
+.site-header {
+   background-color: purple;
+   color: white;
+   font-size: 40px;
+}
+#list{
+   color: blue;
+}
+.sub-list{
+   color: aqua;
+}
+.punkt{
+   color:chartreuse
+}
+div.text{
+   color: yellow;
+}
+.lesson.text{
+   color:blueviolet
+}
+.html,.cms,.flash{
+   color: red;
+}
+.text1 p{
+   color: aquamarine;
+}
+.text2 *{
+   color: red;
+}
+.lesson.text>p{
+   color: #000;
+}
+.text4~p{
+   color: pink;
+}
+.text5+p{
+   color:coral 
+}
+[class*="__container"] {
+   color: chocolate;
+}
