@@ -1,0 +1,77 @@
+
+
+@import url(https://uk.allfont.net/allfont.css?fonts=garamond&display=swap);
+@import url("reset.css");
+@font-face {
+	font-family: "Hermes";
+	src: url('../fonts/Hermes.woff2') format('woff2'),
+		 url('../fonts/Hermes.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #6C757D;
+	line-height: 1.6;
+
+}
+
+.title {
+	font-family: "Hermes", sans-serif; 
+	font-weight: 400;
+	font-size: 48px;
+	text-align: center;
+	color: #000;
+	text-shadow: -5px 3px 0.8px rgb(181, 88, 88);
+	background-color: rgba(189, 21, 21, 0.505);
+}
+.navigation {
+	font-style:oblique;
+	text-decoration: underline;
+	color: rgb(70, 6, 101);
+}
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #000;
+}
+.text1 {
+	font-size: 18px;
+	font-weight: 700;
+	
+	
+}
+.text2 {
+	text-align: justify;
+}
+.text3 {
+	text-decoration: line-through;
+}
+.text4 {
+	word-spacing: 10px;
+}
+.text5 {
+	text-transform: lowercase;
+	
+}
+.text6 {
+	text-decoration: overline;
+	text-indent: 25px;
+}
+.link {
+	font-weight: 700;
+	color: red;
+}
+.footer-container {
+	font-family: 'Garamond', serif;
+	font-size: 14px;
+	line-height: 1;
+	background-color: rgba(78, 17, 92, 0.443);
+}
+
+
