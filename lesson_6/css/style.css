@@ -1,0 +1,119 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+body{
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #6C757D;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+	
+}
+
+header {
+	margin: 0 auto 40px;
+	padding-top: 40px;
+	}
+h1 {
+	
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__title {
+	color: #212529;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px; /* 40/25 */
+	max-width: 605px;
+}
+.article__text-block p{
+	line-height: 1.78;/* 25/14 */ 
+	margin-bottom: 30px; 
+}
+
+.article__image {
+	display: block;
+	max-width: 100%;
+	margin: 0px auto 80px;
+	
+}
+.article__image{
+	display: block;
+	max-width: 100%;
+	
+	margin: 0px auto 80px;
+}
+.article__images {
+	display: block;
+	max-width: 1240px;
+	font-size: 0;
+	margin: 0 auto 80px ;
+}
+
+.img1{
+	width: 50%;
+	padding-right: 15px;
+	font-size: 14px;
+}
+.img2 {
+	padding-left: 15px;
+	width: 50%;
+font-size: 14px;}
+
+.image, .img1, .img2 {
+	border-radius: 5px;
+}
+.praktika__container {
+	color: #000;
+	font-size: 18px;
+	max-width: 900px;
+	padding-bottom: 30px;
+}
+.block1 {
+	background-color: #8bce6e;
+	border: 7px dashed black;
+	border-radius: 89% 11% 79% 21% / 33% 63% 37% 67% ;
+	padding: 25px;
+	box-shadow: -5px 10px 10px 0 rgb(108, 7, 7);
+	margin-bottom: 25px;
+	opacity: 0.8;
+}
+.circle {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(191, 180, 28);
+	border-radius: 50%;
+	outline: 10px dotted yellow;
+	box-shadow: inset 5px 5px 5px 0;
+	margin-bottom: 25px;
+}
+.images{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 0;
+	
+	
+}
+.images img{
+	border: 10px solid black;
+	padding: 35px;
+	background-color: #5a6809;
+	margin-right: 10px;
+	box-shadow: inset 0px 0px 30px 0 black;
+	width: 30%;
+
+}
